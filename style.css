@@ -1,0 +1,28 @@
+body {
+  margin-top: 50px;
+}
+
+.title {
+  text-align: center;
+  color: #364037;
+  font-family: monospace;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.preview-area {
+  border-radius: 5px;
+  color: white;
+  background-color: #364037;
+  word-wrap: break-word;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.form-control:focus {
+  border-color: #364037;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
